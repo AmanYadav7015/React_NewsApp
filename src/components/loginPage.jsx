@@ -41,7 +41,7 @@ const Login = () => {
                 </a>
               </div>
               <div className="login-center-buttons">
-                <button type="button">Log In</button>
+                <button type="button" onClick={()=>navigate("/news")}>Log In</button>
                 <button type="button">
                   <img src={GoogleSvg} alt="" />
                   Log In with Google
