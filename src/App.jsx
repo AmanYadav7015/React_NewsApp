@@ -1,5 +1,5 @@
 import Login from "./components/loginPage"
-import SignUp from "./components/signUp"
+import SignUp from "./components/signup"
 import HomePage from "./components/homePage"
 import News from "./components/News"
 import ForgetPassword from "./components/forgetPassword"
