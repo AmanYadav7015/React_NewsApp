@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "../assets/image.png";
 import Logo from "../assets/logo.png";
-import { FaEye } from "react-icons/fa6";
-import { FaEyeSlash } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import {sendPasswordResetEmail  } from "firebase/auth";
 import { auth } from "../firebase";
